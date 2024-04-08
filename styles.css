@@ -1,3 +1,64 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    padding: 10px 50px;
+}
+
+.logo, .text {
+    color: #f9faf8;
+}
+
+ul {
+    /* color: #e5e7eb; */
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+    background: none;
+    border: 3px dotted red;
+}
+
+.text {
+    border: 3px dotted red;
+}
+
+.puppy {
+    max-width: 25vw;
+    border: 3px dotted red;
 }
