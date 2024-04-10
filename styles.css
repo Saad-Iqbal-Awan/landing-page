@@ -7,8 +7,6 @@
 body {
     display: flex;
     flex-direction: column; 
-    
-
 }
 
 /* Will have to put everything in a flex.
@@ -34,8 +32,10 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     background-color: #1f2937;
+    align-items: center;
+    flex-grow: 0;
     
 }
 
@@ -56,12 +56,17 @@ a {
     color: inherit;
 }
 
+.body {
+    flex-grow: 1;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    margin-bottom: 100px;
     background-color: #1f2937;
+    padding-bottom: 7vh;
+    padding-bottom: 7vh;
     
 
 }
@@ -114,12 +119,14 @@ a {
     align-items: center;
     gap: 20px;
     justify-content: space-between;
+    padding-top: 7vh;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding-bottom: 2vh;
 }
 
 .card-section {
@@ -145,6 +152,7 @@ img {
     height: 20vh;
     width: 20vw;
     border-radius: 20px;
+    margin-bottom: 1vh;
 
 }
 
@@ -158,6 +166,8 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding-top: 12vh;
+    padding-bottom: 8vh;
 }
 
 .quote {
@@ -178,15 +188,19 @@ img {
 .third-fold {
     display: flex;
     justify-content: stretch;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    padding: 6vh inherit;
+    
 }
 
 .cta {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
     background-color: #3882F6;
     flex-grow: 1;
     border-radius: 5px;
+    padding: 4vh 8vh 4vh 8vh;
 
 }
 
@@ -197,7 +211,7 @@ img {
 
 .cta-text-main {
     color: #F9F8FA;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -213,9 +227,17 @@ img {
     border-color: #F9F8FA;
     border-style: none;
     border: 2px solid #F9F8FA;
-    padding: 10px 30px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
+    padding-block: 0;
+    padding-inline: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
 }
 
 .footer {
@@ -225,4 +247,12 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 0;
+
+}
+
+.header, .footer {
+    height: 10vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
