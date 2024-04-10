@@ -217,3 +217,12 @@ img {
     font-weight: bold;
     font-size: 18px;
 }
+
+.footer {
+    background-color: #1f2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
