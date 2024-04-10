@@ -17,7 +17,7 @@ Rest of the div class body will grow - that
 way it will take up all the remaining space.  */
 
 
-.header, .hero, footer, .first-fold {
+.header, .hero, footer, .first-fold, .second-fold, .third-fold {
     padding: 10px 15vw;
 }
 
@@ -107,12 +107,6 @@ a {
     font-weight: bold;
 }
 
-img {
-    height: 20vh;
-    width: 20vw;
-    border-radius: 20px;
-
-}
 
 .first-fold {
     display: flex;
@@ -147,6 +141,36 @@ img {
     
 }
 
+img {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+
+}
+
+
 .card > p {
     max-width: 20vw;
+    font-size: 18px;
+}
+
+.second-fold {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+
+
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
